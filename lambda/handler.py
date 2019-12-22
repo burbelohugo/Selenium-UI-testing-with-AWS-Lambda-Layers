@@ -11,7 +11,7 @@ def hello(event, context):
 
     driver = webdriver.Chrome('/opt/chromedriver',chrome_options=options)
 
-    driver.get('https://www.neaminational.org.au/')
+    driver.get('https://esjbooked.umd.edu/Web/index.php?redirect=')
     body = f"Headless Chrome Initialized, Page title: {driver.title}"
 
     driver.close();
